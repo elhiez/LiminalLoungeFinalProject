@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Home - LIMINAL LOUNGE</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+<!-- Logo Field -->
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="home.html" class="logo d-flex align-items-center">
+
+        <h1 class="sitename">LIMINAL LOUNGE</h1> <span>.</span>
+      </a>
+
+<!-- Navigation Menu -->
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="home.html" class="active">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="eventsmerch.html">Events and Merch</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">FAQ and Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero/Home Splash Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div class="info d-flex align-items-center">
+        <div class="container">
+          <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-6 text-center">
+              <h2>WELCOME TO LIMINAL LOUNGE</h2>
+              <p style="font-size: 26px;">WHERE MUSIC AND MAGIC MEET. Atlanta's Premier Music Bar and Food Lounge founded in 2014. Located at 1842 Peachtree Street NW, Atlanta, GA 30309.</p>
+              <a href="eventsmerch.html" class="btn-get-started">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-item active">
+          <img src="assets/img/hero-carousel/HomeSplash.jpg" alt="Liminal Lounge Interior Home Splash Screen">
+        </div>
+        
+      </div>
+
+    </section><!-- End Hero/Home Splash Section -->
+
+    <!-- Ticket Reservation Section -->
+
+    <section id="get-started" class="get-started section">
+
+      <div class="container">
+
+        <div class="row justify-content-between gy-4">
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+            <div class="content">
+              <h3>Tickets and table reservations are available for a spectacular night!</h3>
+              <p>Join us for an extraordinary evening at Atlanta’s Premier Lounge where the blend of live performances, tasty meals/drinks, and a vibrant atmosphere are sure to create an unforgettable and comfortable experience for you and your loved ones.</p>
+              <p>Unwind after a long day and revel in a variety of genres, from smooth jazz to artpop, all while enjoying delicious cocktails and gourmet meals. Whether you’re a music enthusiast or simply looking for a consistently satisfying night out, our venue will be sure to cater to your needs.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
+            <form action="forms/quote.php" method="post" class="php-email-form">
+              <h3>BOOK A TABLE</h3>
+              <br>
+              <div class="row gy-3">
+
+                <div class="col-12">
+                  <input type="text" name="name" class="form-control" placeholder="Name" required="">
+                </div>
+
+                <div class="col-12 ">
+                  <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                </div>
+
+                <div class="col-12">
+                  <input type="text" class="form-control" name="phone" placeholder="Phone" required="">
+                </div>
+
+                <div class="col-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Size of Party + other notes. Required accomodations, etc." required=""></textarea>
+                </div>
+
+                <div class="col-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
+
+                  <button type="submit">BOOK NOW</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Quote Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- End Ticket Reservation Section -->
+
+    <!-- Hours of Operation Section -->
+
+    <section id="services" class="services section light-background">
+
+      <!-- Operation Hours Blurb -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Hours of Operation</h2>
+        <p>We're open six days a week, but times vary by day. See below!</p>
+      </div><!-- Operation Hours Blurb -->
+    
+          <div class="container">
+    
+            <div class="row gy-4">
+    
+              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-item  position-relative">
+                  <div class="icon">
+                    <i class="fa-solid fa-calendar-days"></i>
+                  </div>
+                  <h3>Monday</h3>
+                  <p>Open 5:00PM - 2:00AM with live performances starting at 11PM. Alcohol happy hour starts at 12PM.</p>
+                </div>
+              </div><!-- End Monday Hours of Operation -->
+    
+              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-item position-relative">
+                  <div class="icon">
+                    <i class="fa-solid fa-calendar-days"></i>
+                  </div>
+                  <h3>Tuesday</h3>
+                  <p>Open 5:00PM - 2:00AM with live performances starting at 11PM. Alcohol happy hour starts at 12PM.</p>
+                </div>
+              </div><!-- End Tuesday Hours of Operation -->
+    
+              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="service-item position-relative">
+                  <div class="icon">
+                    <i class="fa-solid fa-calendar-days"></i>
+                  </div>
+                  <h3>Wednesday</h3>
+                  <p>Open 5:00PM - 2:00AM with live performances starting at 11PM. Alcohol happy hour starts at 12PM.</p>
+                </div>
+              </div><!-- End Wednesday Hours of Operation -->
+    
+              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="service-item position-relative">
+                  <div class="icon">
+                    <i class="fa-solid fa-calendar-days"></i>
+                  </div>
+                  <h3>Thursday</h3>
+                  <p>Open 5:00PM - 2:00AM with live performances starting at 11PM. Alcohol happy hour starts at 12PM.</p>
+                </div>
+              </div><!-- End Thursday Hours of Operation -->
+    
+              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="service-item position-relative">
+                  <div class="icon">
+                    <i class="fa-solid fa-calendar-days"></i>
+                  </div>
+                  <h3>Friday</h3>
+                  <p>Open 6:00PM - 4:00AM with live performances starting at 12:30PM. Alcohol happy hour starts at 2AM.</p>
+                </div>
+              </div><!-- End Friday Hours of Operation -->
+    
+              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                <div class="service-item position-relative">
+                  <div class="icon">
+                    <i class="fa-solid fa-calendar-days"></i>
+                  </div>
+                  <h3>Saturday</h3>
+                  <p>Open 6:00PM - 4:00AM with live performances starting at 12:30PM. Alcohol happy hour starts at 2AM.</p>
+                </div>
+              </div><!-- End Saturday Hours of Operation-->
+    
+            </div>
+    
+          </div>
+    
+        </section><!-- End Hours of Operation Section -->
+
+<br>
+<br> <!-- Weekly Lineup / Featured Artist Section -->
+<div class="container section-title" data-aos="fade-up">
+  <h2>WEEKLY LINEUP</h2>
+</div><!-- End Weekly Lineup Title -->
+
+<section id="features" class="features section">
+  <div class="container">
+    <ul class="nav nav-tabs row g-2 d-flex" data-aos="fade-up" data-aos-delay="100" role="tablist">
+      <li class="nav-item col-3" role="presentation">
+        <a class="nav-link active show" id="features-tab-1-tab" data-bs-toggle="tab" href="#features-tab-1" aria-controls="features-tab-1" aria-selected="true" role="tab">
+          <h4>Featured Artist 1</h4>
+        </a>
+      </li><!-- End Feat Artist 1 Title -->
+
+      <li class="nav-item col-3" role="presentation">
+        <a class="nav-link" id="features-tab-2-tab" data-bs-toggle="tab" href="#features-tab-2" aria-controls="features-tab-2" aria-selected="false" role="tab">
+          <h4>Featured Artist 2</h4>
+        </a>
+      </li><!-- End Feat Artist 2 Title -->
+
+      <li class="nav-item col-3" role="presentation">
+        <a class="nav-link" id="features-tab-3-tab" data-bs-toggle="tab" href="#features-tab-3" aria-controls="features-tab-3" aria-selected="false" role="tab">
+          <h4>Featured Artist 3</h4>
+        </a>
+      </li><!-- End Feat Artist 3 Title -->
+
+      <li class="nav-item col-3" role="presentation">
+        <a class="nav-link" id="features-tab-4-tab" data-bs-toggle="tab" href="#features-tab-4" aria-controls="features-tab-4" aria-selected="false" role="tab">
+          <h4>Featured Artist 4</h4>
+        </a>
+      </li><!-- End Feat Artist 4 Title -->
+    </ul>
+
+    <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+      <div class="tab-pane fade active show" id="features-tab-1" role="tabpanel" aria-labelledby="features-tab-1-tab">
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+            <br>
+            <h3>Ruby Velle and the Soulphonics</h3>
+            <p class="fst-italic">
+              Ruby Velle and the Soulphonics were united in 2006 at their Gainesville, Florida hometown. The team started with Spencer Garn (keys), Scott Clayton (guitar), and Ruby Velle (vocals) but has since expanded to include drum, bass, and brass instruments. Their vintage R&B-Soul-Funk Fusion pays homage to the old-school masters with extra inspiration from Incubus, Portishead, and Ani DiFranco. Through their showing in works like “It’s About Time” they quickly found a home in Atlanta and solidified themselves as an inspirational local band. <a href="https://youtu.be/8ZZTF7SgSso?feature=shared" target="_blank" class="glightbox stretched-link">View Live Performance</a>
+            </p>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 text-center">
+            <img src="assets/img/RubySoulphonics.jpg" alt="Ruby Velle and the Soulphonics in their element" class="img-fluid">
+          </div>
+        </div>
+      </div><!-- End Featured Artist 1 Content -->
+
+      <div class="tab-pane fade" id="features-tab-2" role="tabpanel" aria-labelledby="features-tab-2-tab">
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+            <br>
+            <h3>Björk</h3>
+            <p class="fst-italic">
+              Björk is a legend in the music scene. She’s 58 years old hailing from Reykjavik, Iceland and known for her innovative and eclectic music style. While she blends various genres she is most known for her Art Pop and Electronic style full of experimentation and unique singing. She consistently produces visually striking music videos and thought-provoking performances. Practically all of her albums have received critical acclaim, though her LP "Homogenic" is widely considered her magnum opus. <a href="https://youtu.be/V-58I81gySE?feature=shared" target="_blank" class="glightbox stretched-link">View Live Performance</a></p>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 text-center">
+            <img src="assets/img/Bjork.jpg" alt="Bjork posing with a flute" class="img-fluid">
+          </div>
+        </div>
+      </div><!-- End Featured Artist 2 Content -->
+
+      <div class="tab-pane fade" id="features-tab-3" role="tabpanel" aria-labelledby="features-tab-3-tab">
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+            <br>
+            <h3>Tumi Mogorosi</h3>
+            <p class="fst-italic">
+              Tumi Mogorosi is a 37 year old drummer from Johannesburg, South Africa. He is celebrated for his contributions to contemporary South African jazz, while also being a composer and activist on the side. He is a member of Shabaka & the Ancestors, but also leads his own ensemble. Be sure to check out his superb album “Group Theory”! <a href="https://youtu.be/E2273zHC98g?feature=shared" target="_blank" class="glightbox stretched-link">View Live Performance</a></p>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 text-center">
+            <img src="assets/img/TumiMogorosi.jpg" alt="Tumi sitting in his library" class="img-fluid">
+          </div>
+        </div>
+      </div><!-- End Featured Artist 3 Content -->
+
+      <div class="tab-pane fade" id="features-tab-4" role="tabpanel" aria-labelledby="features-tab-4-tab">
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+            <br>
+            <h3>Samaria</h3>
+            <p class="fst-italic">
+              Samaria is an upcoming 28 years old artist born in Oakland, California. She started her music career in 2016 and has since grown into her signature Soul and Alternative R&B sound. She takes influences from classic and modern styles and it definitely shows in her project "Reckless". We can't wait to hear what else she has in store! <a href="https://youtu.be/iIadCnpss6A?feature=shared" target="_blank" class="glightbox stretched-link">View Live Performance</a></p>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 text-center">
+            <img src="assets/img/Samaria.jpeg" alt="Samaria in her 'On the Way' Music Video" class="img-fluid">
+          </div>
+        </div>
+      </div><!-- End Featured Artist 4 Content -->
+    </div>
+  </div>
+</section><!-- End Weekly Lineup / Featured Artist Section -->
+
+    <!-- Upcoming Event Nights Section -->
+    <section id="services" class="services section light-background">
+
+      <!-- Upcoming Event Nights Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Upcoming Event Nights</h2>
+      </div><!-- End Upcoming Event Nights Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-mug-hot"></i>
+              </div>
+              <h3>Bossa Nova Night (Monday)</h3>
+              <a href="eventsmerch.html" target="_blank" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Bossa Nova Night -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-microphone-lines"></i>
+              </div>
+              <h3>R&B Night (Tuesday)</h3>
+              <p style="font-size: 16px;">With performances from special guest Samaria from Oakland, California.</p>
+              <a href="eventsmerch.html" target="_blank" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End R&B Night -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-drum"></i>
+              </div>
+              <h3>Jazz Night (Wednesday)</h3>
+              <p style="font-size: 16px;">With performances from special guest Tumi Mogorosi from Johannesburg, South Africa.</p>
+              <a href="eventsmerch.html" target="_blank" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Jazz Night -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-guitar"></i>
+              </div>
+              <h3>Folk Night (Thursday)</h3>
+              <br>
+              <a href="eventsmerch.html" target="_blank" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Folk Night -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-bomb"></i>
+              </div>
+              <h3>Funk Night (Friday)</h3>
+              <p style="font-size: 16px;">With performances from special guest Ruby Velle and the Soulphonics from Atlanta, Georgia.</p>
+              <a href="eventsmerch.html" target="_blank" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Funk Night -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-icons"></i>
+              </div>
+              <h3>Artpop Night (Saturday)</h3>
+              <p style="font-size: 16px;">With performances from special guest Björk from Reykjavik, Iceland.</p>
+              <a href="eventsmerch.html" target="_blank" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Artpop Night -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Upcoming Event Nights Section -->
+
+<!-- Linking Bootstrap JS and dependencies (Popper.js) -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+      <!-- Menu Section-->
+      <section id="projects" class="projects section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Menu</h2>
+        <br>
+        <p style="font-size: 20px;"><a href="menu.html#full-menu" class="glightbox link">View the full menu here.</a></p>
+      </div><!-- End Menu Blurb -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-appetizers">Appetizers</li>
+            <li data-filter=".filter-gourmetmeals">Gourmet Meals</li>
+            <li data-filter=".filter-drinksnonal">Signature Nonalcoholic Drinks</li>
+            <li data-filter=".filter-cocktails">Craft Cocktails</li>
+            <br>
+            <br>
+          </ul><!-- End Menu Selection Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-appetizers">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/LoadedPotatoSkins.jpg" class="img-fluid" alt="Loaded Potato Skins">
+                <div class="portfolio-info">
+                  <h4>Appetizers 1</h4>
+                  <p>Loaded Potato Skins</p>
+                  <a href="assets/img/projects/LoadedPotatoSkins.jpg" title="Loaded Potato Skins" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Appetizers Item 1 -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-appetizers">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/ArtisanFlatbread.jpg" class="img-fluid" alt="Artisan Flatbread">
+                <div class="portfolio-info">
+                  <h4>Appetizers 2</h4>
+                  <p>Artisan Flatbread</p>
+                  <a href="assets/img/projects/ArtisanFlatbread.jpg" title="Artisan Flatbread" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Appetizers Item 2 -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-appetizers">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/FigandProsciuttoCrostini.jpg" class="img-fluid" alt="Fig and Prosciutto Crostini">
+                <div class="portfolio-info">
+                  <h4>Appetizers 3</h4>
+                  <p>Fig and Prosciutto Crostini</p>
+                  <a href="assets/img/projects/FigandProsciuttoCrostini.jpg" title="Fig and Prosciutto Crostini" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Appetizers Item 3 -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-gourmetmeals">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/ChickenAlfredoPasta.jpg" class="img-fluid" alt="Chicken Alfredo Pasta">
+                <div class="portfolio-info">
+                  <h4>Gourmet Meals 1</h4>
+                  <p>Chicken Alfredo Pasta</p>
+                  <a href="assets/img/projects/ChickenAlfredoPasta.jpg" title="Chicken Alfredo Pasta" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Gourmet Meals Item 1 -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-gourmetmeals">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/GrilledSalmonLemonDill.png" class="img-fluid" alt="Grilled Salmon with Lemon Dill Drizzle">
+                <div class="portfolio-info">
+                  <h4>Gourmet Meals 2</h4>
+                  <p>Grilled Salmon with Lemon-Dill Drizzle</p>
+                  <a href="assets/img/projects/GrilledSalmonLemonDill.png" title="Grilled Salmon with Lemon Dill Drizzle" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Gourmet Meals Item 2 -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-gourmetmeals">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/Ratatouille.jpg" class="img-fluid" alt="Ratatouille">
+                <div class="portfolio-info">
+                  <h4>Gourmet Meals 3</h4>
+                  <p>Ratatouille</p>
+                  <a href="assets/img/projects/Ratatouille.jpg" title="Ratatouille" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Gourmet Meals Item 3 -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-drinksnonal">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/VioletBreeze.jpg" class="img-fluid" alt="Violet Breeze">
+                <div class="portfolio-info">
+                  <h4>Signature Nonalcoholic Drinks 1</h4>
+                  <p>Violet Breeze</p>
+                  <a href="assets/img/projects/VioletBreeze.jpg" title="Violet Breeze" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Signature Nonalcoholic Drinks Item 1 -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-drinksnonal">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/TropicalSunset.jpg" class="img-fluid" alt="Tropical Sunset">
+                <div class="portfolio-info">
+                  <h4>Signature Nonalcoholic Drinks 2</h4>
+                  <p>Tropical Sunset</p>
+                  <a href="assets/img/projects/TropicalSunset.jpg" title="Tropical Sunset" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Signature Nonalcoholic Drinks Item 2 -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-drinksnonal">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/SpicedChai.jpg" class="img-fluid" alt="Spiced Chai Latte">
+                <div class="portfolio-info">
+                  <h4>Signature Nonalcoholic Drinks 3</h4>
+                  <p>Spiced Chai Latte</p>
+                  <a href="assets/img/projects/SpicedChai.jpg" title="Spiced Chai Latte" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Signature Nonalcoholic Drinks Item 3 -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cocktails">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/GingerPearMartini.jpg" class="img-fluid" alt="Ginger Pear Martini">
+                <div class="portfolio-info">
+                  <h4>Craft Cocktails 1</h4>
+                  <p>Ginger Pear Martini</p>
+                  <a href="assets/img/projects/GingerPearMartini.jpg" title="Ginger Pear Martini" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Craft Cocktails Item 1 -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cocktails">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/RaspberryMojito.jpg" class="img-fluid" alt="Raspberry Mojito">
+                <div class="portfolio-info">
+                  <h4>Craft Cocktails 2</h4>
+                  <p>Raspberry Mojito</p>
+                  <a href="assets/img/projects/RaspberryMojito.jpg" title="Raspberry Mojito" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Craft Cocktails Item 2 -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cocktails">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/CaramelAppleCiderBourbon.jpg" class="img-fluid" alt="Caramel Apple Cider Bourbon">
+                <div class="portfolio-info">
+                  <h4>Craft Cocktails 3</h4>
+                  <p>Caramel Apple Cider Bourbon</p>
+                  <a href="assets/img/projects/CaramelAppleCiderBourbon.jpg" title="Caramel Apple Cider Bourbon" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Craft Cocktails Item 3 -->
+
+          </div><!-- End Menu Image Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- End Menu Section -->
+
+<!-- Testimonials Section -->
+
+<section id="testimonials" class="testimonials section">
+  <!-- Testimonial Blurb -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Testimonials</h2>
+    <p>See why Liminal Lounge is so loved in Atlanta!</p>
+  </div><!-- End Testimonial Blurb -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/John-Testimonial-1.jpg" class="testimonial-img" alt="John Anderson Loyal Customer Testimonial">
+              <h3>John Anderson</h3>
+              <h4>Loyal Customer</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>I've frequented this bar for over five years since I first moved to Atlanta. Liminal never disappoints! The atmosphere is always welcoming, the staff care, and the selection for food and drinks is amazing. P.S. Sign up for the newsletter, it's a gamechanger!</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+        </div><!-- End Testimonial 1 Long Time Loyalty -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/Naomi-Testimonial-2.jpg" class="testimonial-img" alt="Naomi Bennett Local Reviewer Testimonial">
+              <h3>Naomi Bennett</h3>
+              <h4>Local Reviewer</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>I feared this place wouldn't live up to the hype, but I'm glad I was wrong! The craft cocktails are some of the best I've ever had. Plus, the decor and service I received was fantastic. Nancy went above and beyond serving me. Definitely a must-visit for anyone looking to experience the local nightlife!</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+        </div><!-- End Testimonial 2 Local Reviewer -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/Luis-Testimonial-3.jpg" class="testimonial-img" alt="Luis Maleko First-Time Guest Testimonial">
+              <h3>Luis Maleko</h3>
+              <h4>First-Time Guest</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>I tried other music bars around Georgia but nothing hits the spot like Liminal Lounge. I immediately fell in love with how warm the people and staff were. The owner was especially down to earth, which is hard to come by, because most places I've been to were very stuck up. I had a great time and thank my friend Elena for recommending this place! I'll be back ASAP.</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+        </div><!-- End Testimonial 3 First Timer -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/Natalia-Testimonial-4.jpg" class="testimonial-img" alt="Natalia Ferrera Event Coordinator Testimonial">
+              <h3>Natalia Ferrera</h3>
+              <h4>Event Coordinator</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>"We hosted our company’s holiday party here, and it was a huge hit! The staff catered to everything we needed for our large group with no hiccups. It was spacious and surprisingly affordable too! I highly recommend this place for any group event. Just be sure to plan ahead to make the most of this venues' opportunity!</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+        </div><!-- End Testimonial 4 Event Coordinator -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/David-Testimonial-5.jpg" class="testimonial-img" alt="David Miller Weekend Regular Testimonial">
+              <h3>David Miller</h3>
+              <h4>Weekend Regular</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>This bar has become my go-to spot for weekend hangouts with friends. As an avid music listener I find their mixes extremely satisfying. The genre nights are always rotating, so I'm guaranteed to discover new artists and songs to add to my playlists I would never hear on my own. Plus, it feels great uplifting my community and the talented artists in it!</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+        </div><!-- End Testimonial 5 Weekend Regular -->
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section><!-- End Testimonials Section -->
+
+<!-- Code for Testimonial Animations -->
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    loop: true,
+    speed: 600,
+    autoplay: {
+      delay: 6500
+    },
+    slidesPerView: "auto",
+    pagination: {
+      el: ".swiper-pagination",
+      type: "bullets",
+      clickable: true
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 40
+      },
+      1200: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      }
+    }
+  });
+</script>
+
+<!-- Newsletter Section -->
+
+    <section id="services" class="services section light-background">
+      <div class="container section-title" data-aos="fade-up">
+
+<section id="get-started" class="get-started section">
+
+  <div class="container">
+
+    <div class="row justify-content-between gy-4">
+
+      <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+        <div class="content">
+          <h3 style="font-size: 36px;">Sign up for our Newsletter!</h3>
+          <p style="font-size: 22px;">This is the best way for you to stay connected with Liminal (even better than social media). Among other great rewards you'll be the first to know about our latest events and exclusive offers!</p>
+          <br>
+          <p style="font-size: 18px;">By signing up you can expect insider information on highly anticipated performances, special promotions/discounts, early access to tickets, and lottery entry to select artist meet and greets.</p>
+        </div>
+      </div><!-- End Newsletter Section "Why do it?" Blurb / -->
+
+  <!-- Newsletter Form -->
+
+      <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
+        <form action="forms/quote.php" method="post" class="php-email-form">
+          <h3>Newsletter Sign Up</h3>
+          <br>
+          <div class="row gy-3">
+
+            <div class="col-12">
+              <input type="text" name="name" class="form-control" placeholder="Name" required="">
+            </div>
+
+            <div class="col-12 ">
+              <input type="email" class="form-control" name="email" placeholder="Email" required="">
+            </div>
+
+            <div class="col-12">
+              <input type="text" class="form-control" name="phone" placeholder="Phone" required="">
+            </div>
+
+            <div class="col-12 text-center">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
+
+              <button type="submit">SUBMIT</button>
+            </div>
+
+          </div>
+        </form>
+      </div><!-- End Newsletter Form -->
+
+    </div>
+
+  </div>
+
+  </main>
+
+  <!-- Footer Section -->
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="home.html" class="logo d-flex align-items-center">
+            <span class="sitename">LIMINAL LOUNGE</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>1842 Peachtree Street NW</p>
+            <p>Atlanta, GA 30309</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>(404) 555-7834</span></p>
+            <p><strong>Email:</strong> <span>info@liminalloungeatl.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="eventsmerch.html">Events and Merch</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">FAQ and Contact</a></li>
+
+            <!-- The nav links above are implemented. The two below are not implemented. however, but kept to make the website feeling realistic-->
+
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Hours of Operation</h4>
+          <ul>
+            <li><a href="#">Monday: 5:00PM - 2:00AM</a></li>
+            <li><a href="#">Tuesday: 5:00PM - 2:00AM</a></li>
+            <li><a href="#">Wednesday: 5:00PM - 2:00AM</a></li>
+            <li><a href="#">Thursday: 5:00PM - 2:00AM</a></li>
+            <li><a href="#">Friday: 6:00PM - 4:00AM</a></li>
+            <li><a href="#">Saturday: 6:00PM - 4:00AM</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">LIMINAL LOUNGE</strong> <span>All Rights Reserved.</span></p>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade, Edited by Elhiez</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+ <script>
+  $(document).ready(function() {
+    var $grid = $('.isotope-container').isotope({
+      itemSelector: '.portfolio-item',
+      layoutMode: 'masonry',
+      percentPosition: true,
+      masonry: {
+        columnWidth: '.portfolio-item'
+      }
+    });
+
+    // filter items on button click
+    $('.portfolio-filters').on('click', 'li', function() {
+      var filterValue = $(this).attr('data-filter');
+      $grid.isotope({ filter: filterValue });
+
+      // change active class on buttons
+      $('.portfolio-filters li').removeClass('filter-active');
+      $(this).addClass('filter-active');
+    });
+  });
+</script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
